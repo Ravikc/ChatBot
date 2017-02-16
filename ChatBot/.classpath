@@ -2,15 +2,17 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="src/httpcore-4.4.6.jar"/>
-	<classpathentry kind="lib" path="httpclient-4.5.3.jar"/>
-	<classpathentry kind="lib" path="src/java-json.jar"/>
-	<classpathentry kind="lib" path="src/org.apache.commons.httpclient.jar"/>
-	<classpathentry kind="lib" path="src/google-api-spelling-java-1.1.jar"/>
-	<classpathentry kind="lib" path="src/activation-1.1.jar"/>
-	<classpathentry kind="lib" path="src/jaxb-api-2.1.jar"/>
-	<classpathentry kind="lib" path="src/jaxb-impl-2.1.5.jar"/>
-	<classpathentry kind="lib" path="src/log4j-1.2.14.jar"/>
-	<classpathentry kind="lib" path="src/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="lib/activation-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/google-api-spelling-java-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/httpclient-4.5.3.jar"/>
+	<classpathentry kind="lib" path="lib/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="lib/java-json.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-api-2.1.jar"/>
+	<classpathentry kind="lib" path="lib/jaxb-impl-2.1.5.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.httpclient.jar"/>
+	<classpathentry kind="lib" path="lib/stax-api-1.0-2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="lib/Ab.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

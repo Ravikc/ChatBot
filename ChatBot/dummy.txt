@@ -1,0 +1,205 @@
+Name = super Path = c:/ab/bots/super
+c:/ab
+c:/ab/bots
+c:/ab/bots/super
+c:/ab/bots/super/aiml
+c:/ab/bots/super/aimlif
+c:/ab/bots/super/config
+c:/ab/bots/super/logs
+c:/ab/bots/super/sets
+c:/ab/bots/super/maps
+Preprocessor: 416 norms 56 persons 9 person2 
+Get Properties: c:/ab/bots/super/config/properties.txt
+Exists: c:/ab/bots/super/config/properties.txt
+Loading AIML Sets files from c:/ab/bots/super/sets
+bird.txt
+Read AIML Set bird
+Reading AIML Set c:/ab/bots/super/sets/bird.txt
+color.txt
+Read AIML Set color
+Reading AIML Set c:/ab/bots/super/sets/color.txt
+digit.txt
+Read AIML Set digit
+Reading AIML Set c:/ab/bots/super/sets/digit.txt
+familiarname.txt
+Read AIML Set familiarname
+Reading AIML Set c:/ab/bots/super/sets/familiarname.txt
+fastfood.txt
+Read AIML Set fastfood
+Reading AIML Set c:/ab/bots/super/sets/fastfood.txt
+language.txt
+Read AIML Set language
+Reading AIML Set c:/ab/bots/super/sets/language.txt
+mammal.txt
+Read AIML Set mammal
+Reading AIML Set c:/ab/bots/super/sets/mammal.txt
+mammalfeature.txt
+Read AIML Set mammalfeature
+Reading AIML Set c:/ab/bots/super/sets/mammalfeature.txt
+name.txt
+Read AIML Set name
+Reading AIML Set c:/ab/bots/super/sets/name.txt
+ordinal.txt
+Read AIML Set ordinal
+Reading AIML Set c:/ab/bots/super/sets/ordinal.txt
+place.txt
+Read AIML Set place
+Reading AIML Set c:/ab/bots/super/sets/place.txt
+preposition.txt
+Read AIML Set preposition
+Reading AIML Set c:/ab/bots/super/sets/preposition.txt
+profile.txt
+Read AIML Set profile
+Reading AIML Set c:/ab/bots/super/sets/profile.txt
+verb2sp.txt
+Read AIML Set verb2sp
+Reading AIML Set c:/ab/bots/super/sets/verb2sp.txt
+verb2st.txt
+Read AIML Set verb2st
+Reading AIML Set c:/ab/bots/super/sets/verb2st.txt
+Loading AIML Map files from c:/ab/bots/super/maps
+familiarpredicate.txt
+Read AIML Map familiarpredicate
+Reading AIML Map c:/ab/bots/super/maps/familiarpredicate.txt
+gendername.txt
+Read AIML Map gendername
+Reading AIML Map c:/ab/bots/super/maps/gendername.txt
+number2ordinal.txt
+Read AIML Map number2ordinal
+Reading AIML Map c:/ab/bots/super/maps/number2ordinal.txt
+ordinal2number.txt
+Read AIML Map ordinal2number
+Reading AIML Map c:/ab/bots/super/maps/ordinal2number.txt
+profile2predicate.txt
+Read AIML Map profile2predicate
+Reading AIML Map c:/ab/bots/super/maps/profile2predicate.txt
+verb2sp2verb1sp.txt
+Read AIML Map verb2sp2verb1sp
+Reading AIML Map c:/ab/bots/super/maps/verb2sp2verb1sp.txt
+AIML modified Thu Feb 16 22:10:24 IST 2017 AIMLIF modified Fri Feb 17 00:38:54 IST 2017
+No deleted.aiml.csv file found
+No deleted.aiml.csv file found
+Loading AIML files from c:/ab/bots/super/aimlif
+Reading Learnf file
+AIML Set birdfeature not found.
+AIML Set birdfeature not found.
+Loaded 4846 categories in 0.106 sec
+--> Bot super 4846 completed 0 deleted 0 unfinished
+Setting predicate address to where
+Setting predicate age to how many
+Setting predicate baby to who
+Setting predicate bestfriend to who
+Setting predicate birthday to when
+Setting predicate birthplace to where
+Setting predicate boyfriend to who
+Setting predicate brother to who
+Setting predicate cat to what
+Setting predicate city to which
+Setting predicate country to which
+Setting predicate county to which
+Setting predicate customname to unknown
+Setting predicate daughter to who
+Setting predicate dialnumber to unknown
+Setting predicate dog to who
+Setting predicate email to what
+Setting predicate employer to who
+Setting predicate equalto to false
+Setting predicate father to who
+Setting predicate favoriteactor to who
+Setting predicate favoriteactress to who
+Setting predicate favoriteband to who
+Setting predicate favoritebook to what
+Setting predicate favoritecar to what
+Setting predicate favoritecolor to what
+Setting predicate favoritedrink to what
+Setting predicate favoritefood to what
+Setting predicate favoriteicecream to what
+Setting predicate favoritemovie to what
+Setting predicate favoritesong to what
+Setting predicate favoritesport to what
+Setting predicate favoritetvshow to what
+Setting predicate firstname to what
+Setting predicate friend to who
+Setting predicate gender to unknown
+Setting predicate girlfriend to who
+Setting predicate grandfather to who
+Setting predicate grandmother to who
+Setting predicate hair to what
+Setting predicate has to what
+Setting predicate he to who
+Setting predicate husband to who
+Setting predicate isanumber to false
+Setting predicate it to what
+Setting predicate lastname to what
+Setting predicate latitude to which
+Setting predicate likes to what
+Setting predicate location to where
+Setting predicate longitute to which
+Setting predicate meta to set
+Setting predicate middlename to what
+Setting predicate mother to who
+Setting predicate name to Friend
+Setting predicate nephew to who
+Setting predicate newcontact to unknown
+Setting predicate newpattern to NORESP
+Setting predicate niece to who
+Setting predicate orientation to unknown
+Setting predicate phonenumber to unknown
+Setting predicate province to which
+Setting predicate religion to unknown
+Setting predicate residence to where
+Setting predicate road to which
+Setting predicate she to who
+Setting predicate sign to which
+Setting predicate sister to who
+Setting predicate son to who
+Setting predicate state to which
+Setting predicate status to what
+Setting predicate street to which
+Setting predicate there to where
+Setting predicate them to who
+Setting predicate topic to unknown
+Setting predicate town to which
+Setting predicate voicemailnumber to unknown
+Setting predicate we to who
+Setting predicate wife to who
+Setting predicate topic to unknown
+normalized = hello
+Matched: HELLO <THAT> * <TOPIC> * reductions1.aiml
+0. <srai>HI</srai> from HELLO <THAT> * <TOPIC> * topic=unknown) 
+Matched: HI <THAT> * <TOPIC> * personality.aiml
+writeCertainIFCaegories learnf.aiml size= 0
+Hi! It's delightful to see you.
+The majority is not with far-right elements: Avaaz’s Patel
+http://www.thehindu.com/news/international/The-majority-is-not-with-far-right-elements-Avaaz%E2%80%99s-Patel/article17314150.ece
+
+Labor Secretary-pick withdraws nomination
+http://www.thehindu.com/news/international/Labor-Secretary-pick-withdraws-nomination/article17314130.ece
+
+Baghdad car bomb claimed by Islamic State kills 47
+http://www.thehindu.com/news/international/Baghdad-car-bomb-claimed-by-Islamic-State-kills-47/article17314067.ece
+
+U.S. lawmakers pledge support for ties with India
+http://www.thehindu.com/news/international/U.S.-lawmakers-pledge-support-for-ties-with-India/article17313493.ece
+
+Vikas Swarup appointed High Commisioner to Canada
+http://www.thehindu.com/news/national/Vikas-Swarup-appointed-High-Commisioner-to-Canada/article17313382.ece
+
+Pakistan’s President gets driving licence by due procedure!
+http://www.thehindu.com/news/international/Pakistan%E2%80%99s-President-gets-driving-licence-by-due-procedure/article17313265.ece
+
+EC asks Parrikar to be more circumspect in future
+http://www.thehindu.com/elections/goa-2017/EC-asks-Parrikar-to-be-more-circumspect-in-future/article17313083.ece
+
+Plea seeking conversion of Jayalalithaa home into memorial rejected
+http://www.thehindu.com/news/national/tamil-nadu/Plea-seeking-conversion-of-Jayalalithaa-home-into-memorial-rejected/article17312968.ece
+
+Economic ties no buffer, India-China must rejig diplomatic strategy: Global Times
+http://www.thehindu.com/news/international/Economic-ties-no-buffer-India-China-must-rejig-diplomatic-strategy-Global-Times/article17312959.ece
+
+Court acquits two accused in Delhi serial blasts case
+http://www.thehindu.com/news/national/Court-acquits-two-accused-in-Delhi-serial-blasts-case/article17312745.ece
+
+Current Temperature: 18.29 °C
+Wind Speed: 4.78 m/s
+clear sky
