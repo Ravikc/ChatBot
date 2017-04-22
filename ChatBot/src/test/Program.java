@@ -1,47 +1,47 @@
 package test;
-import java.io.ByteArrayOutputStream;
-import java.io.PrintStream;
-import java.util.Scanner;
-import org.alicebot.ab.*; 
+import java.io.IOException;
+import java.util.Scanner; 
 
 public class Program
 {
 	private static Scanner in = new Scanner(System.in);
 		
-	public static void main(String[] args)	
-	{		
+	public static void main(String[] args) throws InterruptedException, IOException	
+	{
+		String[] weatherBuzzWords = {"weather", "cloud", "cloudy", "sun", "sunny", "wind", "windy", "cold", "hot", "freezing", "snow", "rain", "raining", "rainy", "drizzle", "fog", "foggy", "temperature"};
+		Interface ui = new Interface();
+		String question = "";
 		while(true)
 		{
-			String question = in.nextLine();
-			if(question.contains("weather"))			
-					Utility.showWeather("Bangalore");	
-				
-			else if(question.contains("news"))
-			{
-				Utility.showNews();
-			}
+			if(question == "")
+				question = ui.displayText();
+							
+			question = question.trim().toLowerCase();
+			
+			for(String word : weatherBuzzWords)
+				if(question.contains(word))
+				{		
+					Thread.sleep(10);
+					ui.displayText("Let me check\n");
+					Thread.sleep(1);
+					Utility.showWeather("Bangalore", ui);
+					question = "";
+					break;
+				}				
+				else if(question.contains("news"))
+				{
+					Thread.sleep(10);
+					ui.displayText("Let me check\n");
+					Thread.sleep(1);
+					Utility.showNews(ui);
+					question = "";
+					break;
+				}
 			
 			else
 			{
-				ByteArrayOutputStream dump = new ByteArrayOutputStream();
-				PrintStream ps = new PrintStream(dump);
-				PrintStream old = System.out;
-				
-				System.setOut(ps);
-				
-				String botname="test";
-				String path="c:/ab"; 
-				Bot bot = new Bot(botname, path); 
-				Chat chatSession = new Chat(bot); 
-			
-				String request = question;
-				String response = chatSession.multisentenceRespond(request); 
-			
-				System.out.flush();
-				System.setOut(old);
-				
-				System.out.println(response); 
-						
+				BotUtility bot = new BotUtility();
+				question = bot.Talk(question, weatherBuzzWords, ui);
 			}			
 		}
 	}

@@ -14,5 +14,7 @@
 	<classpathentry kind="lib" path="lib/stax-api-1.0-2.jar"/>
 	<classpathentry kind="lib" path="lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="lib/Ab.jar"/>
+	<classpathentry kind="lib" path="src/cmulex.jar"/>
+	<classpathentry kind="lib" path="src/cmu_us_kal.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
